@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mFlDocContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.document.render.widget.DocView
+        android:id="@+id/mDocView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:dv_engine="internal"
+        app:dv_moving_orientation="vertical"
+        app:dv_page_pb_color="@color/yellow"
+        app:dv_page_pb_height="2dp"
+        app:dv_quality="normal" />
+
+</FrameLayout>

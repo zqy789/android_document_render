@@ -1,0 +1,25 @@
+
+
+package com.document.render.office.fc.hssf.eventusermodel.dummyrecord;
+
+
+
+public final class LastCellOfRowDummyRecord extends DummyRecordBase {
+    private int row;
+    private int lastColumnNumber;
+
+    public LastCellOfRowDummyRecord(int row, int lastColumnNumber) {
+        this.row = row;
+        this.lastColumnNumber = lastColumnNumber;
+    }
+
+
+    public int getRow() {
+        return row;
+    }
+
+
+    public int getLastColumnNumber() {
+        return lastColumnNumber;
+    }
+}
